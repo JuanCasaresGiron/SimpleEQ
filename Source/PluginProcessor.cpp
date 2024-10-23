@@ -228,7 +228,6 @@ ChainSettings getChainSettings(juce::AudioProcessorValueTreeState& apvts) {
     settings.peakQuality=apvts.getRawParameterValue("Peak Quality")->load();
     settings.highCutSlope=static_cast<Slope>(apvts.getRawParameterValue("LowCut Slope")->load());
     settings.highCutSlope=static_cast<Slope>(apvts.getRawParameterValue("HighCut Slope")->load());
-
     return settings;
 }
 
