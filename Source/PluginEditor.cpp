@@ -140,7 +140,8 @@ void SimpleEQAudioProcessorEditor::timerCallback()
 {
     if (parametersChanged.compareAndSetBool(false, true))
     {
-
+        //update the monochain
+        //signal a repaint
     }
 }
 

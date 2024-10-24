@@ -35,7 +35,7 @@ public:
     void paint (juce::Graphics&) override;
     void resized() override;
 
-    void parameterValueChanged(int parameterIndex, float newValue) = 0;
+    void parameterValueChanged(int parameterIndex, float newValue) override;
 
     /** Indicates that a parameter change gesture has started.
 
